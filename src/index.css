@@ -69,5 +69,20 @@ button:focus-visible {
 } */
 
 :root {
-  --COLOR-DARK: 
+  --COLOR-DARK: rgba(17,17,17,1);
+  --COLOR-GRAY-LIGHT: #aaa;
+  --COLOR-GRAY:#777;
+  font-family: Open Sauce,arial,sans-serif;
+}
+
+body {
+  margin:0;
+  font-size: 1.6rem;
+  line-height: 1;
+  font-weight: 500;
+  color: var(--COLOR-GRAY);
+}
+
+* {
+  box-sizing: border-box;
 }
