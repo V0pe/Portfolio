@@ -1,0 +1,36 @@
+.home__nav {
+    margin-bottom: 2.0rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.4;
+}
+
+.home__nav__left, .home__nav__right {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    justify-content: space-between;
+    font: inherit;
+}
+
+.home__nav__right{
+    gap: 0.8rem;
+}
+
+.c-button {
+    display: inline-block;
+    background: transparent;
+    color: #aaa;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px 8px;
+    border: 2px solid #777;
+    border-radius: 45px;
+    cursor: pointer;
+    transition: all .3s;
+    width: 50%;
+}
+
+.hide-mobile {
+    display: none;
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.home__hero .hero__title h1.mobile {
+    letter-spacing: -.04em;
+    word-wrap: break-word;
+    font-size: 140px;
+    font-family: 'Bebas Neue',sans-serif;
+    word-break: break-word;
+    line-height: 1;
+    vertical-align: baseline;
+    margin: 0;
+}
+
+.home__title {
+    margin:0;
+}
