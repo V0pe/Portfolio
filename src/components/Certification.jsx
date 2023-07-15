@@ -7,7 +7,7 @@ export default function Certificate () {
             <span>OPEN SOURCE PROJECTS X </span>
             <br/> <span>RECOGNITION</span>
         </h2>
-    <div class="home__awards__table">
+    <div className="home__awards__table">
         <div className="awards__item" data-fade-in="" style={{opacity: "1", transform: "translate(0px, 0px)"}}>
             Awwwards ⏤ Site of the Day (x2)
         </div>

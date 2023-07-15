@@ -39,7 +39,7 @@
 
 .first-word {
     font-size: 12px;
-    font-family: Open Sauce,arial;
+    font-family: 'Open Sauce', arial, sans-serif;
     line-height: 1.3;
 }
 

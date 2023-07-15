@@ -39,6 +39,14 @@
   width: 50%;
 }
 
+.c-button .c-link {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
 .hide-mobile {
   display: none;
 }
