@@ -13,8 +13,8 @@ export default function Project ({id, niche, dev, title, link, github}){
         </div> 
         <a href={github} target="_blank" rel="noopener noreferrer" className="home__projects__project__link">
             <h1 className="home__projects__project__title is-inview" data-scroll="" data-scroll-direction="horizontal" data-scroll-speed="-8">
-                <span className="inline-ovh">
-                    <div className="left title__main" style={{transform: "translate(0px, 0px)"}}>
+                <span className="inline-ovh scroll-text-container">
+                    <div id="scrolling-text" className="left title__main scrolling-text" style={{transform: "translate(0px, 0px)"}}>
                         <span className="slide-up" data-content={title} aria-hidden="true"></span>
                         {title}
                     </div>

@@ -148,3 +148,28 @@
     transition: color .3s;
     text-decoration: none;
 }
+
+.scrolling-text-container {
+    width: 100%;
+    overflow: auto;
+  }
+  
+  .scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 5s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+  
+    50% {
+      transform: translateX(-50%);
+    }
+  
+    100% {
+      transform: translateX(0%);
+    }
+  }
