@@ -47,6 +47,13 @@
   overflow: hidden;
 }
 
+
 .hide-mobile {
   display: none;
+}
+
+.c-button:hover {
+  background-color: coral;
+  color: black;
+  border: 2px solid coral;
 }
