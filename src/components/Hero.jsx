@@ -20,9 +20,6 @@ export default function Hero (){
           <span className="desktop hero__title__dash" style={{transform: "translate3d(0px, 0px, 0px) scale(1.6006, 1)"}}>
             ——
           </span>
-          <span className="hero__title__dash tablet">
-            ——
-          </span>
           <span className="hero__title__right is-inview" data-scroll="" data-scroll-direction="horizontal" data-scroll-position="top" data-scroll-speed="-7" style={{transform: "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)"}}>
             <span className="hero__hover">S</span>
             <span className="hero__hover">T</span>
@@ -77,5 +74,19 @@ export default function Hero (){
               </div> 
               </span>
       </div>
+      <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
     </section>)
 }

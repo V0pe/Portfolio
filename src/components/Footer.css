@@ -189,3 +189,30 @@ color: coral;
 .home__footer__right {
     color: var(--COLOR-GRAY-LIGHT);
 }
+
+@media screen and (min-width: 550px) {
+    .home__contact__email {
+        margin: auto;
+        text-align: center;
+        max-width: 100rem;
+    }
+
+    .home__footer { 
+        display: flex;
+        max-width: 100rem;
+        margin: auto;
+        padding: 3rem 3rem 0 3rem;
+        justify-content: space-between;
+    }
+
+    .home__footer__center .footer__links {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+        gap: 1rem;
+    }
+
+    .link__flex__inner a.c-button {
+        width: 100%;
+    }
+}

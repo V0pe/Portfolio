@@ -1,7 +1,22 @@
+import React, { useState, useEffect } from 'react';
 import './Certification.css';
 
 export default function Certificate () {
-  return (<section className="home__awards">
+    const [shouldAnimate, setShouldAnimate] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        const element = document.getElementById('home_open_source'); // Replace with the ID of your target section
+        if (element && window.scrollY + window.innerHeight > element.offsetTop) {
+          setShouldAnimate(true);
+        }
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+  return (<section className={`home__awards ${shouldAnimate ? 'fade-in' : ''}`} id='home_open_source'>
     <div className="home__awards__left">
         <h2 className="awards__title">
             <span>OPEN SOURCE PROJECTS X </span>
