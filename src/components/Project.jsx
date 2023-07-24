@@ -1,4 +1,28 @@
+import React, { useEffect, useState } from 'react';
+import './Projects.css';
+
 export default function Project ({id, niche, dev, title, link, github}){
+    const [isAnimated, setIsAnimated] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        const element = document.querySelector('.scroll-animation');
+        const topPosition = element.getBoundingClientRect().top;
+        const bottomPosition = element.getBoundingClientRect().bottom;
+        const isVisible = topPosition < window.innerHeight - 20;
+  
+        setIsAnimated(isVisible);
+      };
+  
+      // Attach the event listener for scrolling
+      window.addEventListener('scroll', handleScroll);
+  
+      // Cleanup the event listener when the component unmounts
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
+    
   return (
     <div>
         <span className="home__projects__line left" style={{opacity: "1", visibility: "inherit"}}>
@@ -14,8 +38,8 @@ export default function Project ({id, niche, dev, title, link, github}){
         <a href={github} target="_blank" rel="noopener noreferrer" className="home__projects__project__link">
             <h1 className="home__projects__project__title is-inview" data-scroll="" data-scroll-direction="horizontal" data-scroll-speed="-8">
                 <span className="inline-ovh scroll-text-container">
-                    <div id="scrolling-text" className="left title__main scrolling-text" style={{transform: "translate(0px, 0px)"}}>
-                        <span className="slide-up" data-content={title} aria-hidden="true"></span>
+                    <div id="scrolling-text" className={`left title__main scroll-animation ${isAnimated ? 'show' : ''}`} style={{transform: "translate(0px, 0px)"}}>
+                        <span className="animated-text" data-content={title} aria-hidden="true"></span>
                         {title}
                     </div>
                 </span>

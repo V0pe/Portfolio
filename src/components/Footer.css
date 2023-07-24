@@ -24,7 +24,7 @@ a {
     align-items: center;
     display: flex;
     position: relative;
-    animation: marquee 40s linear infinite;
+    animation: marquee 20s linear infinite;
     will-change: transform;
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;

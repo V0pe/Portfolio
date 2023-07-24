@@ -5,19 +5,43 @@ export default function Projects (){
     const projects = [
         {
           id: "1",
-          niche: 'RECRUITMENT',
-          dev: 'Web development',
-          title: 'JOB-FOR-CASH MARKETPLACE TEMPLATE',
-          link: "https://www.google.com/",
-          github: "https://www.github.com/v0pe"
+          niche: 'FASHION',
+          dev: 'Frontend development',
+          title: 'FASHION CURATOR GLOBAL MEET',
+          link: "https://v0pe.github.io/Conference-Capstone-/",
+          github: "https://github.com/V0pe/Conference-Capstone-"
         },
         {
           id: "2",
-          niche: 'RECRUITMENT',
-          dev: 'Web development',
-          title: 'JOB-FOR-CASH MARKETPLACE TEMPLATE',
+          niche: 'TRANSPORTATION',
+          dev: 'Frontend development',
+          title: 'ECOBUS TRANSPORTATION',
           link: "https://www.google.com/",
-          github: "https://www.github.com/v0pe"
+          github: "https://github.com/V0pe/ecobusproject"
+        },
+        {
+          id: "3",
+          niche: 'FINANCE',
+          dev: 'Frontend development',
+          title: 'CRYPTO MARKET PRICE',
+          link: "https://cryptosprice.netlify.app/",
+          github: "https://github.com/V0pe/crypto-dict"
+        },
+        {
+          id: "4",
+          niche: 'EDUCATION',
+          dev: 'Frontend development',
+          title: 'IDUMOTA BOOKSTORE',
+          link: "https://idumota-bookstore.netlify.app/",
+          github: "https://github.com/V0pe/Bookstore"
+        },
+        {
+          id: "5",
+          niche: 'RECRUITMENT',
+          dev: 'Fullback development',
+          title: 'JOB FOR CASH WEBSITE',
+          link: "https://www.google.com/",
+          github: "https://github.com/V0pe/jobforcash_frontend"
         }
       ];
       

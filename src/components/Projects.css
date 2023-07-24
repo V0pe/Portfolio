@@ -56,6 +56,10 @@
     transition: color 0.3s;
 }
 
+.home__projects__project__link .title__main .scroll-animation .show {
+    opacity: 0;
+}
+
 .home__projects__project__link .title__main:hover {
     position: relative;
     color:Coral;
@@ -149,6 +153,10 @@
     text-decoration: none;
 }
 
+.home__content__desc a:hover, .home__awards a:hover, .home__content__desc a:hover, .home__footer__right a:hover, .home__stack__paragraph a:hover {
+    color: coral;
+}
+
 /* .scrolling-text-container {
     width: 100%;
     overflow: auto;
@@ -173,6 +181,32 @@
       transform: translateX(0%);
     }
   } */
+
+  #scrolling-text.left.title__main.scroll-animation.show {
+    opacity: 1;
+    transition: opacity 3s;
+    transform: translateY(0);
+    animation: slide ease 4s;
+  }
+
+  @keyframes slide {
+    0%   {left:50px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:20px;}
+    75%  {left:0px; top:20px;}
+    100% {left:50x; top:0px;}
+  }
+
+
+  
+  /* Apply animation when it becomes visible */
+
+  #scrolling-text.left.title__main.scroll-animation {
+    opacity: 0;
+    transform: translateY(20px); /* Initially pushed down 20px */
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    left: 0;
+  }
 
   @media screen and (min-width: 550px) {
   .home__projects__project__label .label-1 {

@@ -45,9 +45,9 @@ export default function Hero (){
           <div className="bottom__right" style={{opacity: "1", transform: "translate(0px, 0px)"}}>
             <p className="hero__paragraph">
               <span className="first-word">About</span>
-              &nbsp; I am a developer that hail from Nigeria focused on creating interactive
-              digital experiences on the web, working with brands and 
-              different products niche such as <span>Disney,</span><span>Fashion, </span>
+              &nbsp; I am a developer hailing from Nigeria, focused on creating interactive
+              digital experiences on the web. I worked on various business projects that cover 
+              theses niches such as <span>Finance, </span><span>Fashion, </span>
               <span>Entertainment,</span> and <span>Sport</span> amongst others to achieve this.
             </p>
             <div className="hero__scroll">
@@ -74,8 +74,8 @@ export default function Hero (){
               </div> 
               </span>
       </div>
-      <div class="area" >
-            <ul class="circles">
+      <div className="area" >
+            <ul className="circles">
                     <li></li>
                     <li></li>
                     <li></li>
