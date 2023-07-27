@@ -120,8 +120,6 @@
   top: 0.3rem;
 }
 
-
-/* Contents */
 .home__content {
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -193,16 +191,17 @@
 }
 
 @keyframes slide {
+  /* stylelint-disable-next-line declaration-block-single-line-max-declarations */
   0% { left: 50px; top: 0; }
+  /* stylelint-disable-next-line declaration-block-single-line-max-declarations */
   25% { left: 200px; top: 0; }
+  /* stylelint-disable-next-line declaration-block-single-line-max-declarations */
   50% { left: 200px; top: 20px; }
+  /* stylelint-disable-next-line declaration-block-single-line-max-declarations */
   75% { left: 0; top: 20px; }
+  /* stylelint-disable-next-line declaration-block-single-line-max-declarations */
   100% { left: 50px; top: 0; }
 }
-
-
-
-/* Apply animation when it becomes visible */
 
 #scrolling-text.left.title__main.scroll-animation {
   opacity: 0;
