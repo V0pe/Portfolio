@@ -10,7 +10,7 @@ export default function Hero (){
              DEVELOPER
         </h1>
         <h1 className="desktop hero__title__top overflow" style={{overflow: "unset"}}>
-          <div className="hero__title__top" title-overflow="" style={{transform: "translate(0px, 0px)"}}>
+          <div className="hero__title__top" style={{transform: "translate(0px, 0px)"}}>
             <span className="hero__title__left is-inview" data-scroll="" data-scroll-direction="horizontal" data-scroll-position="top" data-scroll-speed="7" style={{transform: "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)"}}>
               <span className="hero__hover">F</span>
               <span className="hero__hover">U</span>
@@ -31,7 +31,7 @@ export default function Hero (){
         </h1>
         <span className="hero__title__bottom overflow" style={{overflow: "unset"}}>
           <div className="hero__title__bottom">
-            <h1 className="bottom__left desktop" title-overflow="" style={{transform: "translate(0px, 0px)"}}>
+            <h1 className="bottom__left desktop" style={{transform: "translate(0px, 0px)"}}>
               <span className="hero__hover">D</span>
               <span className="hero__hover">E</span>
               <span className="hero__hover">V</span>

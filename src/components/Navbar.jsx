@@ -33,7 +33,7 @@ export default function Navbar (){
                 work from March 2023
               </span>
             </div>
-            <button className="c-button contact-scroll nav__button" nav-anim="">
+            <button className="c-button contact-scroll nav__button">
                 <span className="c-link">
                     <span className="c-link__inner">
                         <span> contact </span>

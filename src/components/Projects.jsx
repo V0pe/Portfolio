@@ -13,6 +13,14 @@ export default function Projects (){
         },
         {
           id: "2",
+          niche: 'BUSINESS',
+          dev: 'Frontend development',
+          title: 'GREATMEN LEGEND',
+          link: "https://greatmanlegend.com/",
+          github: "https://github.com/V0pe/"
+        },
+        {
+          id: "3",
           niche: 'TRANSPORTATION',
           dev: 'Frontend development',
           title: 'ECOBUS TRANSPORTATION',
@@ -20,7 +28,7 @@ export default function Projects (){
           github: "https://github.com/V0pe/ecobusproject"
         },
         {
-          id: "3",
+          id: "4",
           niche: 'FINANCE',
           dev: 'Frontend development',
           title: 'CRYPTO MARKET PRICE',
@@ -28,7 +36,7 @@ export default function Projects (){
           github: "https://github.com/V0pe/crypto-dict"
         },
         {
-          id: "4",
+          id: "5",
           niche: 'EDUCATION',
           dev: 'Frontend development',
           title: 'IDUMOTA BOOKSTORE',
@@ -36,7 +44,7 @@ export default function Projects (){
           github: "https://github.com/V0pe/Bookstore"
         },
         {
-          id: "5",
+          id: "6",
           niche: 'RECRUITMENT',
           dev: 'Fullback development',
           title: 'JOB FOR CASH WEBSITE',

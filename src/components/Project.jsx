@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 import './Projects.css';
 
 export default function Project ({id, niche, dev, title, link, github}){
@@ -8,7 +9,7 @@ export default function Project ({id, niche, dev, title, link, github}){
       const handleScroll = () => {
         const element = document.querySelector('.scroll-animation');
         const topPosition = element.getBoundingClientRect().top;
-        const bottomPosition = element.getBoundingClientRect().bottom;
+        // const bottomPosition = element.getBoundingClientRect().bottom;
         const isVisible = topPosition < window.innerHeight - 20;
   
         setIsAnimated(isVisible);
@@ -35,7 +36,7 @@ export default function Project ({id, niche, dev, title, link, github}){
                 <p> {niche} / <br/> {dev} </p>
             </div>
         </div> 
-        <a href={github} target="_blank" rel="noopener noreferrer" className="home__projects__project__link">
+        <a href={link} target="_blank" rel="noopener noreferrer" className="home__projects__project__link">
             <h1 className="home__projects__project__title is-inview" data-scroll="" data-scroll-direction="horizontal" data-scroll-speed="-8">
                 <span className="inline-ovh scroll-text-container">
                     <div id="scrolling-text" className={`left title__main scroll-animation ${isAnimated ? 'show' : ''}`} style={{transform: "translate(0px, 0px)"}}>
@@ -77,3 +78,12 @@ export default function Project ({id, niche, dev, title, link, github}){
     </div>
   )
 }
+
+Project.propTypes = {
+    id: PropTypes.number.isRequired,
+    niche: PropTypes.string.isRequired,
+    dev: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
+    github: PropTypes.string.isRequired,
+  };

@@ -1,6 +1,6 @@
 import './Projects.css';
 
-export default function (){
+export default function Contents(){
     return (
     <section className="home__content__con">
                 <span className="home__projects__line left" style={{opacity: "1", visibility: "inherit"}}>

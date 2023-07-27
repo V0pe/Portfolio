@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './Certification.css';
 
 export default function Certificate () {
@@ -47,11 +47,11 @@ export default function Certificate () {
      <div className="home__awards__ice" data-fade-in="" style={{opacity: "1",transform: "translate(0px, 0px)"}}>
         <h2 className="home__content__title">ICEBREAKERS</h2>
         <p className="home__content__desc"> I listen to Electronic and Alt music all the time, you can see what
-         I'm currently listening to on this <a href="https://music.seyi.dev/" target="_blank" rel="noopener noreferrer">MICROSITE.</a> 
+         I&lsquo;m currently listening to on this <a href="https://music.seyi.dev/" target="_blank" rel="noopener noreferrer">MICROSITE.</a> 
          I like traveling and good food (work with me so I can fund this). &nbsp;
          <button className="contact-scroll">GET IN TOUCH</button> &nbsp; to know more about me. 
          </p>
           </div>
            </div> 
            </section>)
-};
+}
